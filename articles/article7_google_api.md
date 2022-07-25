@@ -108,7 +108,7 @@ C: 本文
 :::message
 1. 認証ファイル・サービスアカウントキーの json ファイル を配置
 2. [Gmail API Python Quickstart](https://developers.google.com/gmail/api/quickstart/python)を参考にリクエストを実装
-3. [Sheets API Python Quickstart](https://developers.google.com/sheets/api/quickstart/python)を参考にのリクエストを実装
+3. [Sheets API Python Quickstart](https://developers.google.com/sheets/api/quickstart/python)を参考にリクエストを実装
 :::
 
 
@@ -154,7 +154,7 @@ C: 本文
 
 - GUI ライブラリをつかってデスクトップアプリにする。今はコンソール上でアカウント選択してるので
 
-- Slack アラート通知も入れると Error 吐いた時監視できたり
+- Slack アラート通知も入れると Error 吐いたとき監視できたり
 
 とかですかね。
 
