@@ -1,8 +1,8 @@
 ---
-title: "【GCP】Gmail 送信を試してみた"
+title: "【GCP】 Python + Gmail API + Sheets API で Gmail 送信を試してみた"
 emoji: "✉️"
 type: "tech" # tech: 技術記事 / idea: アイデア
-topics: [GCP, GmailAPI, SpreadSeetAPI, Python]
+topics: [GCP, GmailAPI, SeetsAPI, Python]
 published: true
 ---
 
