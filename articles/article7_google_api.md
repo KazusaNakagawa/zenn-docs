@@ -1,5 +1,5 @@
 ---
-title: "【GCP】 Python + Gmail API + Sheets API で Gmail 送信を試してみた"
+title: "【GCP】 Python + Gmail API + Sheets API で 「Gmail 送信」を試してみた"
 emoji: "✉️"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [GCP, GmailAPI, SeetsAPI, Python]
@@ -7,10 +7,11 @@ published: true
 ---
 
 ## はじめに
-今回は、Google Cloud を使って、「Gmail 送信」を試してみました。
+今回は、Google Cloud を使って、Gmail 送信を試してみました。
 選定理由は、Webサービスにするほど規模もでかくないからです。また、スクリプトを exe化して Windows 環境で実行する背景があります。
 
 メンテナンスするにも、お客様はプログラムの手直しができないので、**アカウント管理**など、スプレッドシートに持たせることで、ある程度自由に変更することも可能になることを想定してます。運用コストも**DB・サーバ**を持たないので、**APIリクエスト数**を気にしておけばそれほどかからないかと。
+
 
 ## 前提条件
 
