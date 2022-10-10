@@ -13,11 +13,13 @@ localstack で AWS SQS を local 操作できる方法を書いていこうか�
 構築は、`docker-compose`でやってます。
 
 `docker-compose.yml`, `Dockerfile` は以下を参考にさせて頂きました🙏
-[docker-composeとlocalstackを使ってローカルでAWS SDK for JavaScript V3を動かしてみる](https://dev.classmethod.jp/articles/docker-compose-localstack-aws-sdk-for-javascript-v3-local/)
+
+https://dev.classmethod.jp/articles/docker-compose-localstack-aws-sdk-for-javascript-v3-local/
+
 
 後、**SQS** にリクエストを飛ばすのに開発中やと何回も試すので、Postman で実行できる方法もメモしました!
 
-curlコマンドや **aws CLI** コマンドを連打しなくていいので楽です!!
+**curlコマンド** や **aws CLI** コマンドを連打しなくていいので楽です!!
 
 ## 作成したリポジトリを clone して docker build コマンドを実行
 
@@ -98,4 +100,4 @@ localstack サービスをつかうと、AWS サービスをローカルで試�
 
 https://documenter.getpostman.com/view/2631434/SWLh56pX
 
-https://dev.classmethod.jp/articles/docker-compose-localstack-aws-sdk-for-javascript-v3-local/
+https://github.com/localstack/localstack
