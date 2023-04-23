@@ -3,7 +3,7 @@ title: "Docker の Option を改めて理解できた話 & 運用規則は統一
 emoji: "🫡"
 type: "idea" # tech: 技術記事 / idea: アイデア
 topics: [Docker,運用規則]
-published: false
+published: true
 ---
 
 ## はじめに
